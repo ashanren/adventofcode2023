@@ -15,6 +15,7 @@ const fs = require('fs/promises');
         if (!isNaN(line[j])) {
           if (!left) {
             left = line[j];
+            right = line[j];
           } else {
             right = line[j];
           }
