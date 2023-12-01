@@ -1,0 +1,6 @@
+{
+  "name": "advent",
+  "dockerComposeFile": ["docker-compose.yml"],
+  "service": "advent",
+  "workspaceFolder": "/opt/app"
+}

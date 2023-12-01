@@ -1,0 +1,12 @@
+services:
+  advent:
+    build:
+      context: .
+      target: advent
+    image: advent:dev
+    container_name: advent
+    restart: always
+    tty: true
+    stdin_open: true
+    volumes:
+      - ./../:/opt/app
